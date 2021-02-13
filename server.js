@@ -49,13 +49,13 @@ let matricula = process.env.MATRICULA;
     console.log('\n\n');
 
     if (matricula == 0) {
-        matricula = readlineSync.question('Digite sua matricula: ')
+        matricula = readlineSync.question('Digite sua matricula: ');
         console.log('\n\n');
     }
 
     //data = readlineSync.question('Digite os dias separados por virgula: ')
 
-    let data = '11,12,13'
+    let data = '11,12,13';
 
     for (let i = 0; i < 1; i++) {
 
