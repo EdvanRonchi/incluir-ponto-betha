@@ -1,0 +1,14 @@
+{
+  "name": "incluir_ponto",
+  "version": "1.0.0",
+  "description": "Inclusão de ponto automatizado",
+  "main": "server.js",
+  "author": "Edvan Ronchi",
+  "license": "MIT",
+  "dependencies": {
+    "delay": "^4.4.0",
+    "dotenv": "^8.2.0",
+    "puppeteer": "^5.5.0",
+    "readline-sync": "^1.4.10"
+  }
+}
